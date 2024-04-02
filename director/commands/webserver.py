@@ -14,7 +14,7 @@ def webserver(dev_mode, web_args):
             "flask",
             "run",
             "--port",
-            "8000",
+            "8010",
         ]
         args += list(web_args)
         os.execvpe(args[0], args, os.environ)
